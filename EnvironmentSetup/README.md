@@ -89,7 +89,7 @@ Use F12 to find a variable or method definition.
 
 **Executing**
 
-If not using Jupyter your active python environment is shown on the bottom right of the editor.
+If not using Jupyter your active python environment is shown on the bottom right of the editor. To change it simply click it and select the interpreter you wish at the top or use "> Python: Select Interpreter" to get to the same selection window.
 
 The Execution of a file can be started by clicking the play button on the top right.
 
