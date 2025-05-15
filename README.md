@@ -5,6 +5,11 @@ It can be installed using "pip install e3series"
 
 # Code examples
 
+## EnvironmentSetup
+
+- Description on how to install the neccessary tools, extensions and packages.
+- Basic usage of the tools
+
 ## Basics
 
 Jupyter notebook describing the basic knowledge regarding the library.
