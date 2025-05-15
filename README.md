@@ -17,7 +17,7 @@ Jupyter notebook describing the basic knowledge regarding the library.
   -  working with COM objects
   -  using enums provided in e3series.types
  
-- PandaParts
+## PandaParts
   - Writing a partlist to a xlsx-file using pandas and opnpyxl
     - Once as a jupyter notebook for seperated execution and in file visualization
     - Once as py-file to add it to the tools-menu as described within the file
