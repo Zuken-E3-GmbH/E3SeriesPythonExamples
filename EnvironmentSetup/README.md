@@ -57,6 +57,10 @@ Installing a specific version
 
     pip install --force-reinstall "e3series==0.1.0"
 
+**Version of the e3series package**
+
+The versions of the E3.series python library are meant to be according to the TLB version of E3.series they are meant to be used with. The TLB version is the version of the type library (the COM interface). This version increases each time to the current version of E3.series, if something changed in the type library. This means the version suited best for your version of E3.series is the one with an equal version number or the greatest smaller version.
+
 # Basic usage
 
 ## VSCode

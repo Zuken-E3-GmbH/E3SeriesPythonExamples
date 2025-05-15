@@ -17,7 +17,7 @@ Jupyter notebook describing the basic knowledge regarding the library.
 - Installation of latest version or specific versions
 
 - Using the library
-  -  staring E3.series safely
+  -  starting E3.series safely
   -  starting E3.dbe
   -  working with COM objects
   -  using enums provided in e3series.types
