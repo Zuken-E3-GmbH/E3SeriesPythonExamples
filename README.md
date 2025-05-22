@@ -22,7 +22,26 @@ Jupyter notebook describing the basic knowledge regarding the library.
   -  working with COM objects
   -  using enums provided in e3series.types
  
-## PandaParts
+## Connection List
+
+  - Prints a list of all connections in the open project to the E3.series messages window
+    - From/To Device and pin
+    - Jumpable link to the connection
+
+## PartsWithPadas
+
   - Writing a partlist to a xlsx-file using pandas and opnpyxl
     - Once as a jupyter notebook for seperated execution and in file visualization
     - Once as py-file to add it to the tools-menu as described within the file
+
+## PrintToE3
+
+  - Redirect all print commands to E3.series
+
+## Simple BOM
+
+  - Uses a dictionary to order all pyrts by component name and print a sorted BOM
+
+## ToolsMenu
+
+  - Simple "Hello World" project with introductions how to add it to the tools menu
