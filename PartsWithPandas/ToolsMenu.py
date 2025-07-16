@@ -18,10 +18,7 @@ from tkinter import filedialog
 import BomColumnNames
 
 def export_bom() -> None:
-    runningE3s = e3series.tools.get_running_e3s()
-    if( len(runningE3s) > 1 or len(runningE3s) == 0):           # As the tool menu currently cannot pass information to the script which e3 to use we make sure 
-        exit(1)                                                 # only one instance is running and therefore it is clear which instance to use
-    e3 = e3series.Application()                                 # Connect to that instance
+    e3 = e3series.Application()                                 # When running from the tools menu this will connect you to the correct instance of E3.series
     job = e3.CreateJobObject()
     if(job.GetId()==0):
         exit(1)                                                 # If no project is open we exit the script  
