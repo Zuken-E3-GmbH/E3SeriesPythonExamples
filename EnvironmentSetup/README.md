@@ -31,7 +31,7 @@ These extensions are:
 
 ## Python packages
 
-The only neccesarry python package is e3series. For the code samples in this repository some more packages need to be installed:
+The only neccesarry python package is e3series. For the code examples in this repository some more packages need to be installed:
 | Name | Installation command | Description |
 | --- | --- | --- |
 | e3series | pip install e3series | E3.series python library |
@@ -41,7 +41,7 @@ The only neccesarry python package is e3series. For the code samples in this rep
 
 **Installing a package**
 
-To install a python package you can use pip. The command may, depending on your environment, be named pip3. While installing packages it is important to make sure to use the correct instance of pip, if you have multiple instances of python installed. Also tke care if you are using virtual environments to choose the correct one.
+To install a python package you can use pip. The command may, depending on your environment, be named pip3. While installing packages it is important to make sure to use the correct instance of pip, if you have multiple instances of python installed. Also take care if you are using virtual environments to choose the correct one.
 
 Installing the most recent version:
 
@@ -56,6 +56,10 @@ The option "--force-reinstall" ensures the package is reinstalled, even if it al
 Installing a specific version
 
     pip install --force-reinstall "e3series==0.1.0"
+
+If you encounter problems as pip is not found add python -m in the front. Such as
+
+    python -m pip install ...
 
 **Version of the e3series package**
 
@@ -85,7 +89,7 @@ In this sub menu you also find pull, push and others.
 Commit and push is hidden behind the arrow on the right of the blue button.
 If you missed giving a commit message a file will be displayed. Simply type your message into this without a leading "#" and click the check mark on the top right.
 
-Use F12 to find a variable or method definition.
+Use F12 to find a variable or method declaration.
 
 **Executing**
 

@@ -1,7 +1,7 @@
-Code samples and descriptions for using the E3.series python library
+Code Examples and descriptions for using the E3.series python library
 ====================================================================
 You can find the e3series python library itself here: https://pypi.org/project/e3series/
-It can be installed using "pip install e3series"
+It can be installed using "pip install e3series" (For further instructions take a look at the chapter "Basics" and "Environment  Setup")
 
 # Code examples
 
@@ -28,7 +28,7 @@ Jupyter notebook describing the basic knowledge regarding the library.
     - From/To Device and pin
     - Jumpable link to the connection
 
-## PartsWithPadas
+## PartsWithPandas
 
   - Writing a partlist to a xlsx-file using pandas and opnpyxl
     - Once as a jupyter notebook for seperated execution and in file visualization
@@ -40,7 +40,7 @@ Jupyter notebook describing the basic knowledge regarding the library.
 
 ## Simple BOM
 
-  - Uses a dictionary to order all pyrts by component name and print a sorted BOM
+  - Uses a dictionary to order all parts by component name and print a sorted BOM
 
 ## ToolsMenu
 
