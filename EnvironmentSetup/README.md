@@ -36,7 +36,7 @@ The only neccesarry python package is e3series. For the code examples in this re
 | --- | --- | --- |
 | e3series | pip install e3series | E3.series python library |
 | pandas |	pip install pandas |	Analysis, manipulation of labeled data |
-| tkinter |	pip install tkinter | Easy to use GUI builder |
+| tkinter |	included in the python default installation | Easy to use GUI builder |
 | openpyxl |	pip install openpyxl |	Writing/reading xlsx/xlsm |
 
 **Installing a package**
