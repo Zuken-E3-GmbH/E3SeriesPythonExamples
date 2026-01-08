@@ -1,5 +1,21 @@
 # Releasenotes
 
+## Version 26.20
+ - New functions in the DbeJob: GetOutbarTextEx, GetResultTextEx
+ - New functions in Sheet: GetPreferSinglePinPlacement, SetPreferSinglePinPlacement
+ - New functions in ProjectConfigurator: ChangeSymbolName, Move
+ - New Enum Type: PinType
+ - Fix: Types of function Slot.GetAreaPolygon() corrected
+ - Fix: Types of function Slot.GetPanelLocationXYZEulerAngles() corrected
+ - New Enum Type: FixType
+ - Moved the changelog from the PyPi-Readme to github
+ - Fixed a typo in the enum ItemType: BlockConnectorPinGroup -> BlockConnectorPinGroup
+ - Fixed parameter ids of Job.GetOuterDiameter() to be "in" not "out"
+ - Added support for the SupplyInterface in the new class Supply
+ - Fix: Parameter ids of ExportSVGBySheetEx was "out" instead of "in" 
+ - Added Text.GetAssignedOptionExpressions
+ - Fix: Pin.GetCCT now pays respect to the 0-based lists in this python library
+
 ## Version 26.11
  - Changes in helpstring documentation
  - Deprecated DbeJob.SetId() due to a bug
