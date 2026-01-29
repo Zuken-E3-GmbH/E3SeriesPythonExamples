@@ -1,5 +1,9 @@
 # Releasenotes
 
+## Version 26.21
+ - The function Group.UpdateDrawingForProjectGeneration in deprecated. Use UpdateDrawingForProjectGenerationEx (available in 26.22 and later) instead
+ - Fix: Fixed a bug when using multiple threads
+
 ## Version 26.20
  - New functions in the DbeJob: GetOutbarTextEx, GetResultTextEx
  - New functions in Sheet: GetPreferSinglePinPlacement, SetPreferSinglePinPlacement
