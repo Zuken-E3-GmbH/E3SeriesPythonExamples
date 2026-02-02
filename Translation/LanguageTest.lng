@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+  <Dictionary Language="44">
+    <FromTo Key="I am a Python script.">
+      <Translation>I am a Python script.</Translation>
+    </FromTo>
+    <FromTo Key="I am a formatted string: '{0}', '{1}', '{2}'">
+      <Translation>I am a formatted string: '{0}', '{1}', '{2}'</Translation>
+    </FromTo>
+    <FromTo Key="Yes">
+      <Translation>Yes</Translation>
+    </FromTo>
+  </Dictionary>
+  <Dictionary Language="49">
+    <FromTo Key="I am a Python script.">
+      <Translation>Ich bin ein Python-Skript</Translation>
+    </FromTo>
+    <FromTo Key="I am a formatted string: '{0}', '{1}', '{2}'">
+      <Translation>Ich bin ein formatierter String: '{0}', '{1}', '{2}'</Translation>
+    </FromTo>
+    <FromTo Key="Yes">
+      <Translation>Ja</Translation>
+    </FromTo>
+  </Dictionary>
+  <Configuration>
+    <Column Name="Key">
+      <VisibleIndex>0</VisibleIndex>
+      <Width>359</Width>
+    </Column>
+    <Column Name="44">
+      <VisibleIndex>1</VisibleIndex>
+      <Width>720</Width>
+    </Column>
+    <Column Name="49">
+      <VisibleIndex>2</VisibleIndex>
+      <Width>989</Width>
+    </Column>
+  </Configuration>
+</Dictionaries>
