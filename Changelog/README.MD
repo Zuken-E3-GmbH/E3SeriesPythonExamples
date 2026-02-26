@@ -1,5 +1,37 @@
 # Releasenotes
 
+## Version 26.22
+  - New translation functionality in e3series.tools.Translation to support *.lng-files
+  - New function in Job: CreateSupplyObject
+  - Fixed adjustment of 1-based arrays in the following functions:
+    - Device.Create2DViewOfSlots
+    - Device.BridgeTerminals
+    - Device.MergeTerminals
+    - Graph.OptimizeGraphicObjects
+    - Group.Create
+    - Group.AddItems
+    - Group.RemoveItems
+    - Job.SetRGBValue
+    - Job.SetConnectionTargetFormat
+    - Job.SetConnectorSymbolFormat
+    - Job.SetGeneratedWireNameFormatEx
+    - Job.ExportJT
+    - Pin.DeleteEx
+    - Pin.AssignTo
+    - Pin.AssignBusbar
+    - Sheet.AlignObjects
+    - Symbol.AssignToConnector
+    - Tree.SetVisibleInfoTypesEx
+  - Fixed the type of Job.SetRGBValue parameters
+  - Fixed type of parameter pnt of Pin.SetPanelPath
+  - Removed GetAttributeValue, SetAttributeValue, DeleteAttribute, AddAttributeValue as they are not implemented
+  - Removed Sheet.CreateBoard (deprecated)
+  - Functions with adjusted IN-parameters having inner tuple types are now tolerant to lists. This is relevant to the following functions:
+    - AttributeDefinition.Set
+    - AttributeDefinition.Create
+    - Job.ImportDrawingForProjectGeneration
+  - Fix: Typo in e3series.types.ModelType
+
 ## Version 26.21
  - The function Group.UpdateDrawingForProjectGeneration in deprecated. Use UpdateDrawingForProjectGenerationEx (available in 26.22 and later) instead
  - Fix: Fixed a bug when using multiple threads

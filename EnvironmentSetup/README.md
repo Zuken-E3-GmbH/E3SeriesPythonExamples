@@ -7,7 +7,7 @@ Environment basics for E3.series with python
 
 Python can be downloaded from the offical website: https://www.python.org/downloads/
 We recommend choosing the latest fully released version.
-Consider adding python to the PATH variable during installation. This might prevent later trouble.
+Consider adding python to the PATH variable during installation. This might prevent trouble later on.
 ![alt text](image-1.png)
 
 ## VSCode
