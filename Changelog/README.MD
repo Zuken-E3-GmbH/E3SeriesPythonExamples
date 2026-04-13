@@ -1,5 +1,20 @@
 # Releasenotes
 
+## Version 26.30
+ - New functions in ProjectConfigurator: ChangeDeviceDesignation, 
+    ChangeDeviceDesignationOfSymbols, ChangeAttribute, ChangeText
+ - New function in Job: GetProjectData (Beta state for python library, subject to change)
+ - New function in Group: UpdateDrawingForProjectGenerationEx
+ - New function in Job: Get3DAnimationEnabled, Set3DAnimationEnabled
+ - New function in Device: JumpToPanel3D,Create2DManufacturingView, Get2DManufacturingViewIds
+ - New function in Device: GetBomType
+ - New function in Pin: GetLogicalEquivalencePinIds
+ - New function in Sheet: Is2DManufacturingView, GetDeviceIdsFrom2DManufacturingView
+ - Added missing function GetSupplyIds
+ - Added helpstrings to e3series.types
+ - New enum types in e3series.typs: BomType1, BomType2
+ - Fixes adjustment of 1-based out-parameter expressions ConnectLine.GetAssignedOptionExpressions
+
 ## Version 26.22
   - New translation functionality in e3series.tools.Translation to support *.lng-files
   - New function in Job: CreateSupplyObject
