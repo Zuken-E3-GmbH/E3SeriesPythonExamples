@@ -28,6 +28,10 @@ Jupyter notebook describing the basic knowledge regarding the library.
     - From/To Device and pin
     - Jumpable link to the connection
 
+## E3Types
+
+  - Working with IntFlags from the e3series.types module
+
 ## PartsWithPandas
 
   - Writing a partlist to a xlsx-file using pandas and opnpyxl
