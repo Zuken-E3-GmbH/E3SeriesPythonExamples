@@ -42,16 +42,21 @@ A virtual environment is used to create a clearly defined environment to run you
 
 You can use them in E3.series in the following ways:
 If you use the exe contained in the virtual environment in the settings, the virtual environment will be used for your python files in the tools:
+
 ![](Setting.png)
+
 This way you only need to add your python script in the Add-Ons definition:
+
 ![](AddOns.png)
 
 if you want to use different virtual environments for different scripts you can set the python.exe (or pythonw.exe) as "Command" in the Add-Ons tab. The python script itself (as well as additional attributes if needed) is set in the field "Argument":
+
 ![](UsingDifferentVenv.png)
 
 ### Installing packages in virtual environments
 
 The easiest way to install your needed package is using powershell, activating your virtual environment and install them via pip as usual. To activate the virtual environment open up a powershell and run the activate command within the folder Script of your virtual environment:
+
 ![](ActivateVenv.png)
 Afterwards the name of your virtual environment should be shown in front of the currrent folder. Now you can run pip as usual.
 
@@ -60,6 +65,7 @@ It is also possible to copy the packeges needed from other environments. They ca
 ### Checking which python packages are installed
 
 To check which packages are installed in which version you can use `pip list`. Don't forget to activate the virtual environment you want to check first (See the previous section "Installing packages in virtual environments").
+
 ![](InstalledPackages.png)
 
 ### Checking which python environment is used
