@@ -21,31 +21,39 @@ Jupyter notebook describing the basic knowledge regarding the library.
   -  starting E3.dbe
   -  working with COM objects
   -  using enums provided in e3series.types
+
+## Common Problems
+
+A collection of the most common problems using Python with E3.series.
+Python Installations and virtual environments
+- Problems with Module versions for different scripts
+- Using different Python installations
+- Using virtual environments
  
 ## Connection List
 
-  - Prints a list of all connections in the open project to the E3.series messages window
-    - From/To Device and pin
-    - Jumpable link to the connection
+Prints a list of all connections in the open project to the E3.series messages window.
+- From/To Device and pin
+- Jumpable link to the connection
 
 ## E3Types
 
-  - Working with IntFlags from the e3series.types module
+Working with IntFlags from the e3series.types module
 
 ## PartsWithPandas
 
-  - Writing a partlist to a xlsx-file using pandas and opnpyxl
-    - Once as a jupyter notebook for seperated execution and in file visualization
-    - Once as py-file to add it to the tools-menu as described within the file
+Writing a partlist to a xlsx-file using pandas and opnpyxl
+- Once as a jupyter notebook for seperated execution and in file visualization
+- Once as py-file to add it to the tools-menu as described within the file
 
 ## PrintToE3
 
-  - Redirect all print commands to E3.series
+Redirect all print commands to E3.series
 
 ## Simple BOM
 
-  - Uses a dictionary to order all parts by component name and print a sorted BOM
+Uses a dictionary to order all parts by component name and print a sorted BOM
 
 ## ToolsMenu
 
-  - Simple "Hello World" project with introductions how to add it to the tools menu
+A simple "Hello World" project with introductions how to add it to the tools menu
