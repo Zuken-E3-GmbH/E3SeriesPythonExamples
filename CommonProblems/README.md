@@ -77,6 +77,7 @@ import e3series
 import sys
 python_exec = sys.executable
 python_version = sys.version
+e3 = e3series.Application()
 e3.PutMessage(f"Python:        {python_exec}")
 e3.PutMessage(f"Version:       {python_version}")
 ```
