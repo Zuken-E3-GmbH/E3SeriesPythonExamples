@@ -1,26 +1,13 @@
-# Releasenotes E3.Python.Library 2027
+# Releasenotes E3.Python.Library 2026
 
-## Version 27.0.2
-  - New function in Text: GetSource
-  - New functions in DbeText: GetSource, SetSource
-  - Added missing function GetSupplyIds
+## Version 26.32.1
   - E3-10758: Fixed type of the parameter type_array in Tree.SetVisibleObjectTypes (which fixes 1-based expansion)
 
-## Version 27.0.1
+## Version 26.32
   - Changed e3types.BomType1 and BomType2 to derivate from IntFlags instead of Enum
-  - New function in Clipboard: SetName
-  - New function in Sheet: GetDXFSizeEx, Is2DManufacturingView, GetDeviceIdsFrom2DManufacturingView
-  - New function in DbeSymbol: GetDXFSizeEx
-  - New function in DbeModel: GetDXFSizeEx
-  - New Class SheetReference
-  - New functions in SheetReference: GetId, SetId, GetSourceSymbolIds, GetDestinationSymbolIds
-  - New funtion in ConnectLine: GetAssignedOptionExpressions
-  - New function in DbeApplication: ExportKeyboardShortcuts, ImportKeyboardShortcuts
-  - New functions in Device: GetRouteCableInSamePath, SetRouteCableInSamePath, Create2DManufacturingView, Get2DManufacturingViewIds
-  - New function in Pin: Get3DTransparency, Set3DTransparency
-  - New function in Job: CreateSheetReferenceObject
-  - New functions in Application: ExportKeyboardShortcuts, ImportKeyboardShortcuts
-  - Changed e3types.BomType1 and BomType2 to derivate from IntFlags instead of Enum
+
+## Version 26.31
+  - Added missing function Job.GetSupplyIds
 
 ## Version 26.30
  - New functions in ProjectConfigurator: ChangeDeviceDesignation, 
